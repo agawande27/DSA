@@ -15,15 +15,8 @@ class Solution {
                 }
             }
         }
-        int cnt2=0;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]==ele){
-                cnt2++;
-            }
-        }
-        if(cnt2>nums.length/2){
+       
             return ele;
         }
-        return -1;
+        
     }
-}
