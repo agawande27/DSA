@@ -10,7 +10,7 @@ class Solution {
             sb.deleteCharAt(0);
             sb.append(c);
             n--;
-            if(n==0 && !sb.toString().equals(goal)){
+            if(n==0 ){
                 break;
             }
         }
