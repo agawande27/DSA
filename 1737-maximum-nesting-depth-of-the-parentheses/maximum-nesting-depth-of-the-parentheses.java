@@ -7,9 +7,7 @@ class Solution {
                 count++;
             }
             if(s.charAt(i)==')'){
-                if(count>prev){
-                    prev=count;
-                }
+               prev=Math.max(count,prev);
                 count--;
             }
         }
